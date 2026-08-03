@@ -18,7 +18,7 @@ Every script sits at the same path it has in Studio's Explorer, with a folder ne
 
 ## Anti-cheat: tolerance for movement, none for tampering
 
-Movement gets sampled once a second and compared against the player's WalkSpeed. Drift past a threshold snaps the player back to their last position and adds a flag, and only after five flags does it kick. Entering a noclip movement state kicks immediately, with no tolerance at all. A separate check kicks on the spot if the anti-cheat's own module folder is missing when it looks for it, on the assumption that its absence means someone deleted it. Every kick and flag gets posted to a Discord webhook along with the player's account age and user ID, so it can be reviewed outside the game.
+Movement gets sampled once a second and compared against the player's WalkSpeed. Drift past a threshold snaps the player back to their last position and adds a flag, and only after five flags does it kick. Entering a noclip movement state kicks immediately, with no tolerance at all. A separate check kicks on the spot if the anti-cheat's own module folder is missing when it looks for it, on the assumption that its absence means someone deleted it. Every kick and flag gets posted to a Discord webhook along with the player's account age and user ID, so it can be reviewed outside the game. This resource was taken from the Roblox Marketplace.
 
 ## Status
 
